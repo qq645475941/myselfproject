@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册账号</title>
+    <link rel="stylesheet" href="../bootstrap-3.3-2.5-dist/css/bootstrap.min.css">
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../bootstrap-3.3-2.5-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/dz.header.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <div class="loginTop"><img src="../imgs/logo.png">
+            <p style="font-size: 25px;">欢迎您加入驴友之家!</p>
+        </div>
+        <div style="font-size: 20px; color: gray">
+            <label>已有账号?</label>
+            <button class="btn btn-default"><a href="登录.html">登录</a></button>
+        </div>
+    </header>
+    <div id="zhuce" class="container">
+        <div class="row">
+                <!--居中-->
+            <div class="col-xs-8 col-xs-offset-2" style="border: 1px gray solid;border-radius: 10px">
+                <p style="font-size:20px;color: coral;border-bottom: 1px gray dashed; margin: 20px 0">用户注册</p>
+                <form class="form-horizontal" role="form" action="">
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label">账号:</label>
+                        <div class="col-xs-4">
+                            <input id="user" class="form-control" type="text" maxlength="20" autofocus required placeholder="请输入账号">
+                        </div>
+                        <label id="userVerify" class="col-xs-3 "></label>
+                    </div>
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label">密码:</label>
+                        <div class="col-xs-4">
+                            <input id="pwd" class="form-control" type="password" maxlength="20" required placeholder="请输入密码">
+                        </div>
+                        <label id="pwdVerify" class="col-xs-3  "></label>
+                    </div>
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label ">确认密码:</label>
+                        <div class="col-xs-4">
+                            <input id="repwd" class="form-control" type="password" maxlength="20" required placeholder="请再次输入密码">
+                        </div>
+                        <label id="repwdVerify" class="col-xs-3  "></label>
+                    </div>
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label">身份证:</label>
+                        <div class="col-xs-4">
+                            <input id="idNum" class="form-control" type="text" maxlength="18" required placeholder="请输入身份证号">
+                        </div>
+                        <label id="idNumVerify" class="col-xs-3  "></label>
+                    </div>
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label">电话:</label>
+                        <div class="col-xs-4">
+                            <input id="phone" class="form-control" type="tel" maxlength="11" required placeholder="请输入电话号码">
+                        </div>
+                        <label id="phoneVerify" class="col-xs-3 "></label>
+                    </div>
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label">QQ号:</label>
+                        <div class="col-xs-4">
+                            <input id="qqNum" class="form-control" type="tel" required placeholder="请输入QQ号">
+                        </div>
+                        <label id="qqNumVerify" class="col-xs-3  "></label>
+                    </div>
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label">邮箱:</label>
+                        <div class="col-xs-4">
+                            <input id="email" class="form-control" type="email" required placeholder="请输入邮箱">
+                        </div>
+                        <label id="emailVerify" class="col-xs-3  "></label>
+                    </div>
+                    <div class="form-group ">
+                        <label class="col-xs-2 control-label"></label>
+                        <div class="col-xs-2">
+                            <input id="" class="form-control" type="submit" value="提交">
+                        </div>
+                        <div class="checkbox col-xs-3">
+                            <input type="checkbox">同意网站服务条款
+                        </div>
+                    </div>
+                </form>
+            <!--居中-->
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="../js/注册.verify.js"></script>
+</html>
